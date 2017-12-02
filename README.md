@@ -12,6 +12,7 @@ Each directory has a self-contained project that uses TypeScript.
 
 [fnf]: https://dev-eryday.com/challenge/2017/11/30/Five-Languages-in-Five-Weeks.html
 [ts]: https://www.typescriptlang.org/
-[hts]: 
-[tt]:
-[rc]:
+[hts]: https://github.com/jpniederer/FiveInFive-TypeScript/tree/master/HelloTypeScript
+[lf]: https://github.com/jpniederer/FiveInFive-TypeScript/tree/master/LanguageFeatures
+[tt]: https://github.com/jpniederer/FiveInFive-TypeScript/tree/master/TestingTypeScript
+[rc]: https://github.com/jpniederer/FiveInFive-TypeScript/tree/master/RosettaCode
