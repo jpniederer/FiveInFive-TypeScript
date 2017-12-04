@@ -1,0 +1,19 @@
+{
+  "name": "idealistzplayground",
+  "version": "0.0.1",
+  "description": "A TypeScript playground for prototyping ideas for a future IdeaListz application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "Joshua Niederer",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.87",
+    "lodash": "^4.17.4",
+    "systemjs": "^0.20.19"
+  }
+}
