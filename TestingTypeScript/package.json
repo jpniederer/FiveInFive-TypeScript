@@ -1,0 +1,29 @@
+{
+  "name": "testingtypescript",
+  "version": "1.0.0",
+  "description": "Testing TypeScript",
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "pretest": "npm run lint",
+    "test": "jest"
+  },
+  "author": "Josh Niederer",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^21.2.1",
+    "ts-jest": "^21.2.4",
+    "typescript": "^2.6.2"
+  }
+}
